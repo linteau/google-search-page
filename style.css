@@ -56,3 +56,11 @@ float:right;
 .navbar ul li img{
 	border-radius: 50%;
 }
+
+a:link{
+	color:gray;
+	text-decoration: none
+}
+a:hover{
+	text-decoration: underline;
+}
