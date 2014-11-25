@@ -16,11 +16,14 @@ img.google{
 
 	margin: 0 auto 0 auto;
 
+		margin-bottom:20px;
+
+
 }
 
 #main{
 	position:relative;
-top:250px;
+top:150px;
 }
 
 form div{
@@ -56,11 +59,39 @@ float:right;
 .navbar ul li img{
 	border-radius: 50%;
 }
-
-a:link{
-	color:gray;
+a{
+	font-family: arial, sans-serif;
+	font-size: small;
+}
+a:link, a:visited{
+	color:#777;
 	text-decoration: none
 }
 a:hover{
 	text-decoration: underline;
+}
+#footer{
+	border-top: 1px solid #e4e4e4;
+	position:fixed;
+	bottom:0px;
+	height:35px;
+	padding:10px;
+	background: #f2f2f2;
+	width: 100%;
+}
+
+ul.right li, ul.left li{
+	position:relative;
+	top:10px;
+	display: inline;
+	margin-left: 7px;
+}
+
+ul.right{
+	float:right;
+	margin-right: 20px;
+}
+ul.left{
+	float:left;
+
 }
